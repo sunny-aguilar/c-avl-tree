@@ -23,6 +23,10 @@ int main() {
     return 0;
 }
 
+struct AVLTree *newTree() {
+
+}
+
 void initAVLTree(struct AVLTree *tree) {
 
 }

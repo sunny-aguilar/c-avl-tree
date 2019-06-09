@@ -93,4 +93,5 @@ struct Node *rotateLeft(struct Node *cur) {
     newTop->left = cur;
     setHeight(cur);
     setHeight(newTop);
+
 }

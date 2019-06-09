@@ -42,4 +42,6 @@ void initAVLTree(struct AVLTree *tree) {
     tree->root = NULL;
 }
 
-struct Node *newNode(struct Node *cur, int newValue);
+struct Node *newNode(struct Node *cur, int newValue) {
+
+}

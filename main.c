@@ -30,4 +30,5 @@ struct AVLTree *newTree() {
 
 void initAVLTree(struct AVLTree *tree) {
     assert(tree != NULL);
+    tree->size = 0;
 }

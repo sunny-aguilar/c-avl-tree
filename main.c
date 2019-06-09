@@ -75,4 +75,7 @@ struct Node *balance(struct Node *cur) {
         }
         return rotateRight(cur);
     }
+    else if (cbf > 1) {
+
+    }
 }

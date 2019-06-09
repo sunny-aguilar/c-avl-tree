@@ -14,9 +14,10 @@ struct Node {
     int height;
 };
 
-
+// function prototypes
 struct AVLTree *newTree();
 void initAVLTree(struct AVLTree *tree);
+
 
 int main() {
     struct AVLTree *tree = newTree();

@@ -62,3 +62,4 @@ struct Node *newNode(struct Node *cur, int newValue) {
     return cur;
 }
 
+struct Node *balance(struct Node *cur)

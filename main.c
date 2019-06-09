@@ -89,5 +89,5 @@ struct Node *balance(struct Node *cur) {
 struct Node *rotateLeft(struct Node *cur) {
     assert(cur != NULL);
     struct Node *newTop = cur->right;
-
+    cur->right = newTop->left;
 }

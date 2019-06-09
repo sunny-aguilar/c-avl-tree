@@ -43,5 +43,5 @@ void initAVLTree(struct AVLTree *tree) {
 }
 
 struct Node *newNode(struct Node *cur, int newValue) {
-
+    assert(cur != NULL && newValue != 0);
 }

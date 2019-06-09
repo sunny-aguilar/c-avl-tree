@@ -26,6 +26,7 @@ int main() {
 struct AVLTree *newTree() {
     struct AVLTree *newTree = malloc(sizeof(struct AVLTree));
     assert(newTree != NULL);
+
     initAVLTree(newTree);
     return newTree;
 }

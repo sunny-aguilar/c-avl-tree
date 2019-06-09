@@ -46,5 +46,6 @@ struct Node *newNode(struct Node *cur, int newValue) {
     assert(cur != NULL && newValue != 0);
     if (cur == NULL) {
         struct Node *newNode = malloc(sizeof(struct Node));
+        assert(newNode != NULL);
     }
 }

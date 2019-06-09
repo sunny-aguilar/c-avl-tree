@@ -49,5 +49,14 @@ struct Node *newNode(struct Node *cur, int newValue) {
         assert(newNode != NULL);
         newNode->value = newValue;
         newNode->left = newNode->right = NULL;
+        return newNode;
     }
+    else if (newValue < cur->value) {
+        cur->left = newNode(cur->left, newValue);
+    }
+    else {
+        cur->right = newNode(cur->right, newValue);
+    }
+
+    return cur;
 }

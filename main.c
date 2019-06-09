@@ -19,6 +19,7 @@ struct AVLTree *newTree();
 void initAVLTree(struct AVLTree *tree);
 struct Node *newNode(struct Node *cur, int newValue);
 struct Node *balance(struct Node *cur);
+int balance(struct Node *cur);
 
 
 int main() {

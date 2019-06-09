@@ -20,6 +20,7 @@ void initAVLTree(struct AVLTree *tree);
 struct Node *newNode(struct Node *cur, int newValue);
 struct Node *balance(struct Node *cur);
 int bf(struct Node *cur);
+struct Node *rotateLeft(struct Node *cur);
 
 
 int main() {

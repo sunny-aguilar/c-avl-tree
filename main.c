@@ -67,4 +67,9 @@ struct Node *balance(struct Node *cur) {
     assert(cur != NULL);
     int cbf = bf(cur);
 
+    if (cbf < -1) {
+        if (bf (cur->left) > 0) {
+
+        }
+    }
 }

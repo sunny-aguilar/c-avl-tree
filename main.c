@@ -2,10 +2,8 @@
 #include <assert.h>
 #include <stdlib.h>
 
-
-
 struct AVLTree {
-    int size;
+    TYPE size;
     struct AVLNode *root;
 };
 

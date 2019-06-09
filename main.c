@@ -17,6 +17,7 @@ struct Node {
 // function prototypes
 struct AVLTree *newTree();
 void initAVLTree(struct AVLTree *tree);
+struct Node *newNode(struct Node *cur, int newValue);
 
 
 int main() {

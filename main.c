@@ -63,5 +63,6 @@ struct Node *newNode(struct Node *cur, int newValue) {
 }
 
 struct Node *balance(struct Node *cur) {
+    assert(cur != NULL);
 
 }

@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 struct AVLTree {
-
+    int size;
 };
 
 int main() {

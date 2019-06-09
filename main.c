@@ -18,7 +18,7 @@ struct AVLTree *newTree();
 void initAVLTree(struct AVLTree *tree);
 
 int main() {
-    struct AVLTree *tree =
+    struct AVLTree *tree = newTree();
 
     return 0;
 }

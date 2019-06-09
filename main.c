@@ -21,6 +21,7 @@ struct Node *newNode(struct Node *cur, int newValue);
 struct Node *balance(struct Node *cur);
 int bf(struct Node *cur);
 struct Node *rotateLeft(struct Node *cur);
+struct Node *rotateRight(struct Node *cur);
 
 
 int main() {
@@ -70,7 +71,7 @@ struct Node *balance(struct Node *cur) {
 
     if (cbf < -1) {
         if (bf (cur->left) > 0) {
-            cur->left = rotateLeft();
+            cur->left = rotateLeft(cur->left);
         }
     }
 }

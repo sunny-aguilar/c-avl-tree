@@ -85,3 +85,5 @@ struct Node *balance(struct Node *cur) {
     setHeight(cur);
     return cur;
 }
+
+struct Node *rotateLeft(struct Node *cur)

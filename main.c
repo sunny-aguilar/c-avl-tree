@@ -77,7 +77,7 @@ struct Node *balance(struct Node *cur) {
     }
     else if (cbf > 1) {
         if (bf(cur->right) < 0) {
-
+            cur->right = rotateRight(cur->right);
         }
     }
 }

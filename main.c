@@ -19,7 +19,7 @@ struct AVLTree *newTree();
 void initAVLTree(struct AVLTree *tree);
 struct Node *newNode(struct Node *cur, int newValue);
 struct Node *balance(struct Node *cur);
-int balance(struct Node *cur);
+int bf(struct Node *cur);
 
 
 int main() {
@@ -66,4 +66,5 @@ struct Node *newNode(struct Node *cur, int newValue) {
 struct Node *balance(struct Node *cur) {
     assert(cur != NULL);
     int cbf = bf(cur);
+
 }

@@ -3,12 +3,14 @@
 #include <stdlib.h>
 
 struct AVLTree {
-    TYPE size;
+    int size;
     struct AVLNode *root;
 };
 
-struct AVLNode {
-
+struct Node {
+    int value;
+    struct Node *left;
+    struct Node *right;
 };
 
 struct

@@ -14,6 +14,7 @@ struct Node {
     int height;
 };
 
+
 struct AVLTree *newTree();
 void initAVLTree(struct AVLTree *tree);
 

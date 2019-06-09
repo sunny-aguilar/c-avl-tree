@@ -22,6 +22,7 @@ struct Node *balance(struct Node *cur);
 int bf(struct Node *cur);
 struct Node *rotateLeft(struct Node *cur);
 struct Node *rotateRight(struct Node *cur);
+void setHeight();
 
 
 int main() {
@@ -82,4 +83,5 @@ struct Node *balance(struct Node *cur) {
         return rotateLeft(cur);
     }
     setHeight(cur);
+    return cur;
 }

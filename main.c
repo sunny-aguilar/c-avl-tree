@@ -86,4 +86,6 @@ struct Node *balance(struct Node *cur) {
     return cur;
 }
 
-struct Node *rotateLeft(struct Node *cur)
+struct Node *rotateLeft(struct Node *cur) {
+
+}

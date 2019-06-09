@@ -7,7 +7,8 @@ struct AVLTree {
     struct AVLNode *root;
 };
 
-void initAVLTree();
+
+void initAVLTree(struct AVLTree *tree);
 
 int main() {
 
@@ -15,6 +16,6 @@ int main() {
     return 0;
 }
 
-void initAVLTree() {
+void initAVLTree(struct AVLTree *tree) {
 
 }

@@ -4,6 +4,7 @@
 
 struct AVLTree {
     int size;
+    struct AVLNode *root;
 };
 
 int main() {
